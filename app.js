@@ -3,7 +3,7 @@ newsContent = document.querySelectorAll('.accordion-body');
 newsHeading = document.querySelectorAll('.accordion-button');
 let imgIcon = document.getElementById("imginaccord");
 const api = `https://newsapi.org/v2/top-headlines?country=in&apiKey=aaa5818138b74428824f989243b39632`;
-
+ 
 
 fetch(api)
     .then(response => response.json())
